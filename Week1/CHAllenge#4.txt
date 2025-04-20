@@ -1,0 +1,24 @@
+The Neuron Model:
+
+At first, I asked ChatGPT to generate a leaky neuron model in System Verilog with the parameters as mentioned in the paper. The initial generated code did not have any errors and compiled successfully. But I had to ask GPT to make certain changes as it varied with the final Verilog code given in the paper. The System Verilog code did not have overflow and underflow handling, spike generation and refractory period handling. The final generated code seems  to work fine. ChatGPT understood the prompts pretty well and  generated the code with the given specifications somewhat precisely.
+
+The Network Model:
+
+The generated network model compiled successfully without any errors. I cross-checked with the Verilog code given in the paper. The System Verilog code generated was implemented with features like generate blocks and it is more flexible compared to Verilog code. The code is also logically same to the Verilog code given in the paper. When asked for the functionality check, ChatGPT provided a clear breakdown on the similarities and implementation of the System Verilog code. 
+
+The Register File:
+
+The ChatGPT generated a register file that looked reasonable. It had registers for parameters, inputs & outputs, and control signals. It also supports reading and writing data that helps change neural network configuration dynamically. The ChatGPT gave the register file that works well with the desired functionality.
+
+The SPI Interface:
+
+ChatGPT generated the interface module that aligns with the functionality, but the initial interface module did not support 8-bit address also, it had to implement bit shifting for SPI communication and use 16-bit register for proper SPI data transaction. 
+The ChatGPT implemented these checks when asked to without any confusion.
+
+The Top Module:
+
+The ChatGPT generated the top module which made sense. Connection of SPI module to the neural network, storing network parameters (Threshold, Leak Rate, etc.), using SPI interface to update neuron input currents and synaptic weights and support an expandable structure for larger networks.
+
+Conclusion:
+
+The ChatGPT gave more clear responses and I can conclude that compared to the results provided in paper and one that I have got, ChatGPT has evolved and gave more refined and clear answers. There was no need to use prompting multiple times to get a correct answer.
