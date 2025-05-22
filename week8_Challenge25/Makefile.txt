@@ -1,0 +1,9 @@
+export TOPLEVEL_LANG = verilog
+export VERILOG_SOURCES = $(shell pwd)/spi_slave.v
+export TOPLEVEL = spi_slave
+export MODULE = test_spi_benchmark
+export SIM = icarus
+
+# cocotb's makefile
+include $(shell cocotb-config --makefiles)/Makefile.sim
+
