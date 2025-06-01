@@ -19,7 +19,6 @@ This project demonstrates a combined simulation of an SPI interface between a Py
 - `spi_slave.v`: Verilog implementation of SPI slave
 - `test_spi_benchmark.py`: cocotb testbench with benchmark logic
 - `Makefile`: Integration with cocotb using Icarus Verilog
-- `spi_benchmark_results.csv`: Output file containing benchmark data
 
 ---
 
