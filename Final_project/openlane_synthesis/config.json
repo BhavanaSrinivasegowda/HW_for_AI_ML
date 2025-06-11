@@ -1,0 +1,13 @@
+{
+  "DESIGN_NAME": "mutation_sv",
+  "VERILOG_FILES": ["designs/GA/mutation_sv.sv"],
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 10.0,
+
+  "DIE_AREA": "0 0 3000 3000",
+  "CORE_AREA": "300 300 2700 2700",
+  "FP_SIZING": "absolute",
+  "PIN_ORDER_CFG": "designs/GA/pin_order.cfg",
+  "RUN_KLAYOUT_DRC": "0"
+}
+
