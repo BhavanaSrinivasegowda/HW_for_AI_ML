@@ -1,0 +1,46 @@
+# Genetic Algorithm Final Project
+
+This project implements a Genetic Algorithm (GA) with a focus on the mutation operation. It includes both a Python version and a hardware implementation using SystemVerilog.
+
+## Project Structure
+
+Final\_project/
+├── main\_code/              # Source code and testbench
+│   ├── GA1\_pyhton\_main\_code.py  # Python code for GA
+│   ├── mutation\_sv.sv           # SystemVerilog mutation module
+│   ├── test\_mutation\_sv.py      # Cocotb testbench
+│   ├── Makefile                 # For running cocotb
+│   └── results.xml              # Test results
+├── openlane\_synthesis/     # OpenLane synthesis files
+│   ├── config.json              # OpenLane config
+│   ├── mutation\_sv.sv          # Synthesized module
+│   ├── metrics.csv/json        # Synthesis results
+│   └── pin\_order.cfg           # Pin configuration
+└── results\_pics/           # Output plots and screenshots
+├── python\_code\_result.pdf
+└── Screenshot\_\*.png
+
+## How to Run
+
+### 1. Run Python GA
+
+cd main_code
+python GA1_pyhton_main_code.py
+
+### 2. Run Cocotb Test (for SystemVerilog mutation)
+
+source cocotb-env/bin/activate
+cd main_code
+make
+
+### 3. Run OpenLane Synthesis
+
+cd openlane_synthesis
+nix develop
+openlane config.json
+
+## Outputs
+
+* Python results in `results_pics/python_code_result.pdf`
+* Cocotb test results in `main_code/results.xml`
+* OpenLane synthesis metrics in `openlane_synthesis/metrics.csv`
