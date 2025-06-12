@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## 📁 Folder Structure
 
 Final\_project/                  # Main GA implementation and results
@@ -31,7 +30,7 @@ Each `WeekX/` folder contains design or coding exercises with corresponding `.do
 - Cocotb verification and OpenLane synthesis
 - Q-learning FSM implementation (Week 3)
 - SPI benchmarking (Week 8)
-=======
+
 # HW_for_AI_ML
 ## 📁 Directory Structure
 
@@ -56,4 +55,3 @@ jupyter notebook
 Then navigate and open `week10_C28.ipynb` or `Untitled0.ipynb` to explore the content.
 
 ##The master branch contains the weekly challenges and Final project
->>>>>>> aff986722276665e6362efded8eb9a721e675895
