@@ -39,6 +39,15 @@ cd openlane_synthesis
 nix develop
 openlane config.json
 
+### to view all rpt files
+
+cd ~/ch18/openlane2/designs/GA/runs/RUN_2025-06-11_18-46-38
+find . -type f -name "*.rpt"
+grep -Ei 'slack|WNS|TNS|violation|path|startpoint|endpoint|clock' ./54-openroad-stapostpnr/*/*max.rpt
+grep -Ei 'slack|WNS|TNS|violation|path|startpoint|endpoint|clock' ./54-openroad-stapostpnr/*/*min.rpt
+cat ./54-openroad-stapostpnr/summary.rpt | grep -E 'WNS|TNS|Slack|Violation|Path|Overall'
+vim $(find ./54-openroad-stapostpnr -type f -name "*.rpt")
+
 ## Outputs
 
 * Python results in `results_pics/python_code_result.pdf`
