@@ -48,7 +48,9 @@ grep -Ei 'slack|WNS|TNS|violation|path|startpoint|endpoint|clock' ./54-openroad-
 cat ./54-openroad-stapostpnr/summary.rpt | grep -E 'WNS|TNS|Slack|Violation|Path|Overall'
 vim $(find ./54-openroad-stapostpnr -type f -name "*.rpt")
 
-## Outputs
+## Genetic Algorithm Flow
+
+
 
 * Python results in `results_pics/python_code_result.pdf`
 * Cocotb test results in `main_code/results.xml`
