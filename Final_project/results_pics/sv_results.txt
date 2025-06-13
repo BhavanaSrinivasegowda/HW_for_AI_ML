@@ -1,0 +1,214 @@
+[2025-06-13 20:28:03 UTC] vlib work && vlog '-timescale' '1ns/1ns' design.sv testbench.sv  && vsim -c -do "vsim +access+r; run -all; exit"  
+VSIMSA: Configuration file changed: `/home/runner/library.cfg'
+ALIB: Library "work" attached.
+work = /home/runner/work/work.lib
+WARNING VCP5090 "Explicit lifetime definition is required for local variable ""worst_idx"" initialized at declaration." "design.sv" 121  42
+WARNING VCP5090 "Explicit lifetime definition is required for local variable ""repeat_count"" initialized at declaration." "testbench.sv" 59  30
+MESSAGE "Unit top modules: genetic_algorithm_tb."
+SUCCESS "Compile success 0 Errors 2 Warnings  Analysis time: 0[s]."
+done
+# Aldec, Inc. Riviera-PRO version 2023.04.112.8911 built for Linux64 on May 12, 2023.
+# HDL, SystemC, and Assertions simulator, debugger, and design environment.
+# (c) 1999-2023 Aldec, Inc. All rights reserved.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.1 [s]
+# SLP: Finished : 0.1 [s]
+# SLP: 0 primitives and 2 (66.67%) other processes in SLP
+# SLP: 26 (25.24%) signals in SLP and 14 (13.59%) interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Riviera-PRO EDU Edition. The performance of simulation is reduced.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5478 kB (elbread=463 elab2=4872 kernel=142 sdf=0)
+# KERNEL: ASDB file was created in location /home/runner/dataset.asdb
+# KERNEL: Starting Genetic Algorithm Testbench...
+# KERNEL: 
+# KERNEL: 
+# KERNEL: --- Run 1 ---
+# KERNEL: K]inAu.oLNwX	8.00%	Cycle: 4
+# KERNEL: K]inA |sGe9!	16.00%	Cycle: 40
+# KERNEL: KeVnA |KGe9!	25.00%	Cycle: 128
+# KERNEL: qeVlI .oLNwX	33.00%	Cycle: 276
+# KERNEL: qeVlB $oLNd}	41.00%	Cycle: 1376
+# KERNEL: qe)lB to=yd!	50.00%	Cycle: 1676
+# KERNEL: qe)l= toryd!	58.00%	Cycle: 1920
+# KERNEL: qellB toryd!	66.00%	Cycle: 2708
+# KERNEL: _ellB >orld!	75.00%	Cycle: 3228
+# KERNEL: *ellN World!	83.00%	Cycle: 4068
+# KERNEL: *ello World!	91.00%	Cycle: 4740
+# KERNEL: Hello World!	100.00%	Cycle: 6220
+# KERNEL: Best Generation: Hello World!
+# KERNEL: Final Fitness: 100%
+# KERNEL: Run completed in 6222 cycles.
+# KERNEL: 
+# KERNEL: --- Run 2 ---
+# KERNEL: i!wqvnWm+,@}	8.00%	Cycle: 4
+# KERNEL: "Dw/VnWm+1@!	16.00%	Cycle: 40
+# KERNEL: 5|lqXDW:1<@!	25.00%	Cycle: 64
+# KERNEL: 5|llKDWl7{:!	33.00%	Cycle: 128
+# KERNEL: 5|llKDWcrY}!	41.00%	Cycle: 740
+# KERNEL: %ellRvWcrY}!	50.00%	Cycle: 1296
+# KERNEL: ]elluvWcr_d!	58.00%	Cycle: 1720
+# KERNEL: bellaaW{rld!	66.00%	Cycle: 3260
+# KERNEL: %ellWtWorld!	75.00%	Cycle: 3712
+# KERNEL: %ellW World!	83.00%	Cycle: 6252
+# KERNEL: Lello World!	91.00%	Cycle: 9568
+# KERNEL: Hello World!	100.00%	Cycle: 16752
+# KERNEL: Best Generation: Hello World!
+# KERNEL: Final Fitness: 100%
+# KERNEL: Run completed in 16754 cycles.
+# KERNEL: 
+# KERNEL: --- Run 3 ---
+# KERNEL: H:M|?#O;CryB	8.00%	Cycle: 4
+# KERNEL: H2l|##>;0r[1	16.00%	Cycle: 476
+# KERNEL: Hsl|##O;Cly/	25.00%	Cycle: 580
+# KERNEL: H2l|#gO;ClJ!	33.00%	Cycle: 1208
+# KERNEL: HFl|j(WJklJ!	41.00%	Cycle: 1356
+# KERNEL: H`l^0.WoklJ!	50.00%	Cycle: 1444
+# KERNEL: Hvll0.Wokld|	58.00%	Cycle: 1668
+# KERNEL: HPll0.WorlJ!	66.00%	Cycle: 2624
+# KERNEL: Hell0.WorlJ!	75.00%	Cycle: 2996
+# KERNEL: Hell0 WorlD!	83.00%	Cycle: 7176
+# KERNEL: Hell0 World!	91.00%	Cycle: 7428
+# KERNEL: Hello World!	100.00%	Cycle: 12672
+# KERNEL: Best Generation: Hello World!
+# KERNEL: Final Fitness: 100%
+# KERNEL: Run completed in 12674 cycles.
+# KERNEL: 
+# KERNEL: --- Run 4 ---
+# KERNEL: ZksLXz8kOXd:	8.00%	Cycle: 4
+# KERNEL: y6.lH5SkOXd:	16.00%	Cycle: 8
+# KERNEL: ye.lH5SkOXd:	25.00%	Cycle: 88
+# KERNEL: ye<lg5Sk3ld*	33.00%	Cycle: 148
+# KERNEL: He<lgC1k@ld*	41.00%	Cycle: 276
+# KERNEL: He<loO+a3ld*	50.00%	Cycle: 388
+# KERNEL: He<lo-0+rld#	58.00%	Cycle: 1112
+# KERNEL: He<lo :+rld#	66.00%	Cycle: 1556
+# KERNEL: Hello (orlha	75.00%	Cycle: 3908
+# KERNEL: Hello (orl'!	83.00%	Cycle: 4308
+# KERNEL: Hello Worl'!	91.00%	Cycle: 5716
+# KERNEL: Hello World!	100.00%	Cycle: 13716
+# KERNEL: Best Generation: Hello World!
+# KERNEL: Final Fitness: 100%
+# KERNEL: Run completed in 13718 cycles.
+# KERNEL: 
+# KERNEL: --- Run 5 ---
+# KERNEL: MLl8V;O,ilyA	16.00%	Cycle: 4
+# KERNEL: MLl]V9O,ilk!	25.00%	Cycle: 104
+# KERNEL: M"l8bUO,rlk!	33.00%	Cycle: 116
+# KERNEL: -el8SUO<rlk!	41.00%	Cycle: 452
+# KERNEL: -el8oUO,rlk!	50.00%	Cycle: 1756
+# KERNEL: HelqoOo,rlk!	58.00%	Cycle: 2528
+# KERNEL: HelloOJ,rlk!	66.00%	Cycle: 3052
+# KERNEL: Hello6J@rld!	75.00%	Cycle: 5700
+# KERNEL: Hello6"orld!	83.00%	Cycle: 7116
+# KERNEL: Hello zorld!	91.00%	Cycle: 24164
+# KERNEL: Hello World!	100.00%	Cycle: 31616
+# KERNEL: Best Generation: Hello World!
+# KERNEL: Final Fitness: 100%
+# KERNEL: Run completed in 31618 cycles.
+# KERNEL: 
+# KERNEL: --- Run 6 ---
+# KERNEL: hwcQf}h-K'dR	8.00%	Cycle: 4
+# KERNEL: \i_Yooh-Kxdj	16.00%	Cycle: 8
+# KERNEL: Niibo h- xdj	25.00%	Cycle: 92
+# KERNEL: Hi;bo C- xdj	33.00%	Cycle: 168
+# KERNEL: He;bo h-1\dj	41.00%	Cycle: 280
+# KERNEL: He=bo WcW\d 	50.00%	Cycle: 296
+# KERNEL: HeRbo WoW\d"	58.00%	Cycle: 1672
+# KERNEL: He5bo Wo.\d!	66.00%	Cycle: 1964
+# KERNEL: HeRlo Wo.\d!	75.00%	Cycle: 2320
+# KERNEL: Hello Wo.\d!	83.00%	Cycle: 5108
+# KERNEL: Hello Wor^d!	91.00%	Cycle: 6204
+# KERNEL: Hello World!	100.00%	Cycle: 28248
+# KERNEL: Best Generation: Hello World!
+# KERNEL: Final Fitness: 100%
+# KERNEL: Run completed in 28250 cycles.
+# KERNEL: 
+# KERNEL: --- Run 7 ---
+# KERNEL: 25P$|0j:a|r!	8.00%	Cycle: 4
+# KERNEL: 2.t5|0W"NlpB	16.00%	Cycle: 156
+# KERNEL: 25l7|0W"LlA=	25.00%	Cycle: 468
+# KERNEL: 55l7|0WovlhE	33.00%	Cycle: 576
+# KERNEL: HBl5|2WoPlhE	41.00%	Cycle: 1772
+# KERNEL: H7ll,#WoPlhc	50.00%	Cycle: 1844
+# KERNEL: H-lln#WoOldw	58.00%	Cycle: 2756
+# KERNEL: HellCPWoOldw	66.00%	Cycle: 3820
+# KERNEL: HellC)WorldG	75.00%	Cycle: 4652
+# KERNEL: HellC WorldY	83.00%	Cycle: 6152
+# KERNEL: Hello World&	91.00%	Cycle: 14780
+# KERNEL: Hello World!	100.00%	Cycle: 38888
+# KERNEL: Best Generation: Hello World!
+# KERNEL: Final Fitness: 100%
+# KERNEL: Run completed in 38890 cycles.
+# KERNEL: 
+# KERNEL: --- Run 8 ---
+# KERNEL: Zd4ly`\PlC7!	16.00%	Cycle: 4
+# KERNEL: Zd4ly,\PlCd!	25.00%	Cycle: 40
+# KERNEL: 4)4l\`\Plld!	33.00%	Cycle: 492
+# KERNEL: ]e4l*`&P8ld!	41.00%	Cycle: 692
+# KERNEL: ]e4l*`&Prld!	50.00%	Cycle: 804
+# KERNEL: ]e4l| &Prld!	58.00%	Cycle: 812
+# KERNEL: ]egl| WPrld!	66.00%	Cycle: 2212
+# KERNEL: Jell: WFrld!	75.00%	Cycle: 2412
+# KERNEL: Jell: World!	83.00%	Cycle: 3748
+# KERNEL: HellV World!	91.00%	Cycle: 7468
+# KERNEL: Hello World!	100.00%	Cycle: 11868
+# KERNEL: Best Generation: Hello World!
+# KERNEL: Final Fitness: 100%
+# KERNEL: Run completed in 11870 cycles.
+# KERNEL: 
+# KERNEL: --- Run 9 ---
+# KERNEL: DOW|o?WgGvuy	16.00%	Cycle: 4
+# KERNEL: DuWlo0W.Gvuy	25.00%	Cycle: 52
+# KERNEL: DuWlo0W0Gvu!	33.00%	Cycle: 304
+# KERNEL: D"Llo Wprv?!	50.00%	Cycle: 348
+# KERNEL: Inllo Wpri?!	58.00%	Cycle: 416
+# KERNEL: Inllo Wprid!	66.00%	Cycle: 472
+# KERNEL: 3nllo W,rld!	75.00%	Cycle: 556
+# KERNEL: 3nllo World!	83.00%	Cycle: 2332
+# KERNEL: H,llo World!	91.00%	Cycle: 3940
+# KERNEL: Hello World!	100.00%	Cycle: 15400
+# KERNEL: Best Generation: Hello World!
+# KERNEL: Final Fitness: 100%
+# KERNEL: Run completed in 15402 cycles.
+# KERNEL: 
+# KERNEL: --- Run 10 ---
+# KERNEL: eDt>B -y9!dv	16.00%	Cycle: 4
+# KERNEL: eDE>O ]ytldN	25.00%	Cycle: 84
+# KERNEL: eDtlB ]yQlda	33.00%	Cycle: 568
+# KERNEL: weRlB ]ytldN	41.00%	Cycle: 636
+# KERNEL: weRlP ]yrldN	50.00%	Cycle: 856
+# KERNEL: HeRlB ]yrldN	58.00%	Cycle: 872
+# KERNEL: HellO ]yrldN	66.00%	Cycle: 1848
+# KERNEL: HellO WGrld[	75.00%	Cycle: 2680
+# KERNEL: Hello W&rld[	83.00%	Cycle: 4144
+# KERNEL: Hello Wsrld!	91.00%	Cycle: 6832
+# KERNEL: Hello World!	100.00%	Cycle: 14036
+# KERNEL: Best Generation: Hello World!
+# KERNEL: Final Fitness: 100%
+# KERNEL: Run completed in 14038 cycles.
+# KERNEL: 
+# KERNEL: ======== Coverage Summary ========
+# KERNEL: Fitness Distribution Coverage: 12 of 101 levels hit (11.88%)
+# KERNEL: [âœ”] Functional coverage = 75.00%
+# RUNTIME: Info: RUNTIME_0068 testbench.sv (107): $finish called.
+# KERNEL: Time: 1896355 ns,  Iteration: 1,  Instance: /genetic_algorithm_tb,  Process: @INITIAL#58_1@.
+# KERNEL: stopped at time: 1896355 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# ACDB: Covergroup Coverage data has been saved to "fcover.acdb" database.
+# VSIM: Simulation has finished.
+Done
